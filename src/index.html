@@ -32,9 +32,10 @@
             </div>
         </div>
 
-        <div class="container">
+        
 
         <div class="about">
+            <div class="container">
             <h2 class="about_title">Обо мне</h2>
             <img class="about_photo" src="/src/img/about/about_photojpg.jpg" >
             <div class="about_text">
@@ -42,10 +43,11 @@
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum autem eligendi illo, sapiente neque mollitia in exercitationem harum nulla non! Iure esse fugit velit tempore?</p>
             </div>
             <a target="_blank" href=""class="about_btn" download="#"><span>Скачать файл</span></a>
-            
+            </div>
         </div> <!-- about-->
 
         <div class="do">
+         <div class="container">
             <h2 class="do_title">Что я умею</h2>
             <div class="do_section">
             <div class="do_item">
@@ -68,10 +70,12 @@
             <div class="do_subtitle">Маркетинг</div>
             <div class="do_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis atque non pariatur sunt eligendi.</div>
             </div>
-        </div>
-    </div> <!-- do-->
+            </div>
+         </div>
+        </div> <!-- do-->
 
     <div class="case">
+        <div class="container">
         <h4 class="case_title">Кейсы</h4>
         <div class="case_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, perspiciatis.</div>
         <img class="case_img"src="/src/img/case/case.jpg" alt="">
@@ -83,10 +87,11 @@
         <a href="#" class="case_btn">Visit live site</a>
         <div class="case_progect"><h2>Название проекта</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur delectus dolorum facilis fugiat nobis dolore voluptate quasi adipisci maiores exercitationem magnam obcaecati magni, perferendis ullam itaque iste quas, temporibus velit!</p> </div>
-        
+        </div>
     </div> <!-- case-->
 
     <div class="calc">
+        <div class="container">
         <h2 class="calc_title">Расчет стоимости</h2>
         <div class="calc_tool">
         <h4 class="calc_subtitle">Тип сайта</h4>
@@ -120,10 +125,12 @@
         <div class="count_dl">Сроки 0</div>
         <div class="count_cost">Стоимость 0</div>
     </div> 
+    </div>
     </div><!-- calc -->
 
     
     <div class="stat">
+        <div class="container">
         <h2 class="stat_title">Немного статистики</h2>
         <div class="stat_section">
             <div class="stat_item">
@@ -147,23 +154,29 @@
             <div class="stat_text">Наград получено</div>
             </div>
         </div>
+        </div>
     </div> <!-- stat-->
 
     <div class="reviews">
+        <div class="container">
         <h2 class="reviews_title">Отзывы</h2>
         <img class="reviews_img" src="/src/img/reviews/фотка.png">
         <div class="reviews_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia cumque illum ab aliquam, numquam nisi.</div>
         <div class="reviews_author">Михаил, Ген директор ПАО “Газпром”.</div>
+        </div>
     </div>
 
+    <footer>
     <div class="contact">
-       
+        <div class="container">
         <h2 class="contact_title">Мои контакты</h2>
+        <div class="contact_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, rem.</div>
         <div class="contact_item">
+        
         <div class="contact_addres">
             <img src="/src/img/contact/geo.png" alt="">
-            <p>Санкт-Петербург</p>
-            <p>Садовая Улица 88</p>
+            <p>Санкт-Петербург <br>
+            Садовая Улица 88</p>
         </div>
         <div class="contact_mail">
             <img src="/src/img/contact/mail.png" alt="">
@@ -175,36 +188,42 @@
         </div>
         </div>
         <h4 class="contact_massage">Оставьте мне сообщение</h4>
+     
+
+    
         <form action="/">
            
-            <div class="row">
-                <div class="form-group">  
-                  <input type="text" id="name" 
-                    placeholder="Имя">
-                </div>  
-                
-              
-                <div class="form-group">
-                  <input type="text" id="name" placeholder="Введите email">
-                </div>
-              
-              </div>
-             
+          <div class="row">
+            <div class="form-group">  
+              <label for="name"></label>
+              <input type="text" id="name" 
+                placeholder="Имя">
+            </div>  
+            
             <div class="form-group">
-                <textarea  id="text" cols="50" rows="5" placeholder="Сообщение"></textarea>
+            <label for="name"></label>
+            <input type="text" id="name" placeholder="Email">
             </div>
-             
-            
-            <input class="btn" type="submit" value="Отправить">
-            
+            </div>
+           
+          <div class="form-group">
+           <label for="name"></label>
+           <textarea  id="text" cols="15" rows="2" placeholder="Сообщение"></textarea>
+          </div>
+          
+          <input class="btn" type="submit" value="Отправить">
+          
         </form>
-
-    </div> <!-- contact -->
-
-    <footer></footer>
-
+    
+    </div>
 </div> 
-</div> <!-- container -->
+    
+    
+
+    </footer>
+
+
+
 
 
 
